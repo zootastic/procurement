@@ -8,25 +8,28 @@
 
 {PopularGems} - To be extended / configurable. Currently:
 
-Blood Magic
-Item Quantity
-Life Gain on Hit
-Life Leech
-Multistrike
-Reduced Mana
-Spell Totem
-Fork
-Chain
-Faster Attacks
-Greater Multiple Projectiles
-Lesser Multiple Projectiles
-Mana Leech
-Added Chaos Damage
-Item Rarity
+Blood Magic,
+Item Quantity,
+Life Gain on Hit,
+Life Leech,
+Multistrike,
+Reduced Mana,
+Spell Totem,
+Fork,
+Chain,
+Faster Attacks,
+Greater Multiple Projectiles,
+Lesser Multiple Projectiles,
+Mana Leech,
+Added Chaos Damage,
+Item Rarity,
 
 {QualityGems} - Any gems with quality
+
 {TripRes} - Any item with more that 3 res
+
 {Uniques} - Any unique items
+
 {WhiteGear} - Any white gear
 
 Then, the combinations of the following are valid:
