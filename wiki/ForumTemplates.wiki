@@ -1,36 +1,38 @@
-{DropOnlyGems} - This ones from the wiki
+=Forum Template and Generation=
 
-{IGN} - IGN of your favorite character in settings
+==Summary==
 
-{LastUpdated} - Current date time
+Procurement uses a file ForumExportTemplate.txt located in the same folder as the executable. The tool will search for keywords, and replace them with item(s) matching the criteria defined for the keyword. The definitions are listed below.
 
-{MagicFind} - Any item with rarity quantity or both
+This allows the user complete control over how the template will be generated, and what will be contained within it. Custom images, specifying indexer specific buyout formats in the spoilers etc. 
 
-{PopularGems} - To be extended / configurable. Currently:
+==Keywords==
 
-Blood Magic,
-Item Quantity,
-Life Gain on Hit,
-Life Leech,
-Multistrike,
-Reduced Mana,
-Spell Totem,
-Fork,
-Chain,
-Faster Attacks,
-Greater Multiple Projectiles,
-Lesser Multiple Projectiles,
-Mana Leech,
-Added Chaos Damage,
-Item Rarity,
-
-{QualityGems} - Any gems with quality
-
-{TripRes} - Any item with more that 3 res
-
-{Uniques} - Any unique items
-
-{WhiteGear} - Any white gear
+  * *{DropOnlyGems}* - This ones from the wiki(http://pathofexile.gamepedia.com/Drop_Only_Gems). This will exclude quality drop only gems
+  * *{IGN}* - IGN of your favorite character in settings
+  * *{LastUpdated}* - Current date time. Format is "July 02, 2013 09:35 AM"
+  * *{MagicFind}* - Any item with rarity, quantity or both stats will be included
+  * *{PopularGems}* - This will be extended in a future release to be configurable. Currently the list is:
+    * Blood Magic
+    * Item Quantity
+    * Life Gain on Hit
+    * Life Leech
+    * Multistrike
+    * Reduced Mana
+    * Spell Totem
+    * Fork
+    * Chain
+    * Faster Attacks
+    * Greater Multiple Projectiles
+    * Lesser Multiple Projectiles
+    * Mana Leech
+    * Added Chaos Damage
+    * Item Rarity
+  * *{QualityGems}* - Any gems with quality
+  * *{TripRes}* - Any item with 3 or more explicit resist stats
+  * *{Uniques}* - Any unique items
+  * *{WhiteGear}* - Any white gear
+  * *{LvlMaps}* - The keyword currently accepts a value for Lvl between 66 - 100. Some examples would be: {66Maps}, {67Maps}, {68Maps}. Note, this keyword is currently in a revision past the last release. It is available if you do a checkout and build, but not yet otherwise. As we have moved to a more incremental release cycle, this feature should be available in a few days.
 
 Then, the combinations of the following are valid:
 
