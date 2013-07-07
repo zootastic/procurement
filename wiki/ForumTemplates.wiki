@@ -1,3 +1,6 @@
+#summary How to customise the forum export template, with an explanation of all the tags.
+
+
 =Forum Template and Generation=
 
 ==Summary==
