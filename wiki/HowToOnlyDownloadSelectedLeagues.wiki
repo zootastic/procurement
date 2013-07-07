@@ -1,3 +1,5 @@
+#summary How to configure Procurement to only update the leagues you want
+
 = Introduction =
 
 Procurement v0.0.8 has introduced the ability to set which leagues to update when logging in, for situations where you have a high number of stash tabs, and do not want to update them for every league, every time you login.
