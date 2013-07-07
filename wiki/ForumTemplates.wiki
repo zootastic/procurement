@@ -29,11 +29,13 @@ This allows the user complete control over how the template will be generated, a
     * Added Chaos Damage
     * Item Rarity
   * *{QualityGems}* - Any gems with quality
+  * *{AuraGems}* - Aura gems such as Haste or Vitality
+  * *{CurseGems}* - Curse gems such as Temporal Chains or Conductivity
   * *{TripRes}* - Any item with 3 or more explicit resist stats
   * *{Uniques}* - Any unique items
   * *{WhiteGear}* - Any white gear
-  * *{LvlMaps}* - The keyword currently accepts a value for Lvl between 66 - 100. Some examples would be: {66Maps}, {67Maps}, {68Maps}. Note, this keyword is currently in a revision past the last release. It is available if you do a checkout and build, but not yet otherwise. As we have moved to a more incremental release cycle, this feature should be available in a few days.
-  * *{Stash:Name}* - The keyword will export an entire stash by name. This feature was requested. Some Examples would be {Stash:Uniques}, {Stash:Stash1}. As per LvlMaps, this feature is recently added, and not part of the current release.
+  * *{LvlMaps}* - The keyword currently accepts a value for Lvl between 66 - 100. Some examples would be: {66Maps}, {67Maps}, {68Maps}. 
+  * *{Stash:Name}* - The keyword will export an entire stash by name. This feature was requested. Some Examples would be {Stash:Uniques}, {Stash:Highlights}
 
 
 Then, the combinations of the following are valid:
