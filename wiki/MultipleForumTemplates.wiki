@@ -1,3 +1,5 @@
+#summary How to create additional forum export templates. Eg: for a hardcore and softcore shop
+
 In order to add an additional forum export template, for example for a leveling shop or if you have both a SC and HC shop, all you have to do is the following :
 
   * Open settings.xml in the Procurement folder
