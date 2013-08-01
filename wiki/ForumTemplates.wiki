@@ -39,8 +39,8 @@ This allows the user complete control over how the template will be generated, a
   * *{WhiteGear}* - Any white gear
   * *{LvlMaps}* - The keyword currently accepts a value for Lvl between 66 - 100. Some examples would be: {66Maps}, {67Maps}, {68Maps}. 
   * *{Stash:Name}* - The keyword will export an entire stash by name. This feature was requested. Some Examples would be {Stash:Uniques}, {Stash:Highlights}
-  * *{OneHanders}* - All one handed weapons - Currently only available at head revision
-  * *{TwoHanders}* - All two handed weapons - Currently only available at head revision
+  * *{OneHanders}* - All one handed weapons - *Currently only available at head revision*
+  * *{TwoHanders}* - All two handed weapons - *Currently only available at head revision*
 
 Then, the combinations of the following are valid:
 
