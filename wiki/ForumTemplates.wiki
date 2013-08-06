@@ -41,6 +41,7 @@ This allows the user complete control over how the template will be generated, a
   * *{Stash:Name}* - The keyword will export an entire stash by name. This feature was requested. Some Examples would be {Stash:Uniques}, {Stash:Highlights}
   * *{OneHanders}* - All one handed weapons - *Currently only available at head revision*
   * *{TwoHanders}* - All two handed weapons - *Currently only available at head revision*
+  * *{Buyouts}* - All items with a buyout set, in spoilers as per the indexers format rules. Buyouts set by right clicking an item, set buyout - *Currently only available at head revision*
 
 Then, the combinations of the following are valid:
 
