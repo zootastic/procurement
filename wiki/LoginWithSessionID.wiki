@@ -7,8 +7,29 @@ A new feature was introduced with version v1.0.0 of procurement which allows the
 The session id will expire only if you perform a log out operation in the browser.
 
 = How to retrieve the value =
+
+Firstly, open up your browser of choice, make sure you are logged in and the page is open, and then skip to the relevant section below
+
 ==Internet Explorer==
-Todo
+  * Hit F12 - This should open the developer console.
+  * In the console windows, click the Cache menu and select view cookie 
+information
+  * This will open a new page with the cookies listed.
+  * Find the item with the name PHPSESSID.
+  * Copy the value next to VALUE - this is your sessionid.
+ 
 ==Firefox==
-Todo
+  * Hit the Alt key
+  * Select Tools -> Options from the menu
+  * Click on the Privacy tab
+  * In the history section, there should be a remove individual cookies link. Click this.
+  * in the Search textbox, type pathofexile.com
+  * Locate the item with a cookie name of PHPSESSID and click on it.
+  * Copy the value next to Content - this is your sessionid.
+
 ==Chrome==
+  * Hit 12 - This should open the Developer Tools
+  * Click the resources item at the top
+  * Expand cookies and select the www.pathofexile.com item in the list
+  * Find the item in the grid on the right where the name is PHPSESSID
+  * Double click on the value, right click copy. Your sessionid is now in the clipboard.
