@@ -29,3 +29,7 @@ Procurement v0.0.8 has introduced the ability to set which leagues to update whe
    }}}
 
    * Finally save the settings file and run Procurement, it will now only update the leagues you have selected
+
+
+
+<wiki:video url="http://www.youtube.com/watch?v=FhVMpgLE5sg"/>
