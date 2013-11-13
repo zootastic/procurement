@@ -12,8 +12,7 @@ Firstly, open up your browser of choice, make sure you are logged in and the pag
 
 ==Internet Explorer==
   * Hit F12 - This should open the developer console.
-  * In the console windows, click the Cache menu and select view cookie 
-information
+  * In the console window, click the Cache menu and select view cookie information
   * This will open a new page with the cookies listed.
   * Find the item with the name PHPSESSID.
   * Copy the value next to VALUE - this is your sessionid.
