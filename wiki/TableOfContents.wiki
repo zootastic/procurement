@@ -1,5 +1,0 @@
-#sidebar TableOfContents
-  * [HowToOnlyDownloadSelectedLeagues]
-  * [ForumTemplates]
-  * [MultipleForumTemplates]
-  * [LoginWithSessionID]
