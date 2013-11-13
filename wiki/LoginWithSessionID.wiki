@@ -1,0 +1,9 @@
+#summary How to log in to procurement using your PHP session id.
+
+= Introduction =
+
+A new feature was introduced with version v1.0.0 of procurement which allows the user to log in without using the traditional email/password combination. When enabled, the user is required to populate an Alias(used for the cache folder) and php session id. To get this, you are required to be logged in to the pathofexile website in your choice of browser.
+
+The session id will expire only if you perform a log out operation in the browser.
+
+To Follow:
