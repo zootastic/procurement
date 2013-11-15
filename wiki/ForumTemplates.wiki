@@ -42,6 +42,9 @@ This allows the user complete control over how the template will be generated, a
   * *{OneHanders}* - All one handed weapons
   * *{TwoHanders}* - All two handed weapons
   * *{Buyouts}* - All items with a buyout set, in spoilers as per the indexers format rules. Buyouts set by right clicking an item, set buyout
+  * *{4Link}* - All items with exactly 4 links.
+  * *{5Link}* - All items with exactly 5 links.
+  * *{6Link}* - All items with exactly 6 links.
 
 Then, the combinations of the following are valid:
 
@@ -49,4 +52,4 @@ Then, the combinations of the following are valid:
    	       
 and GearType can be: Ring, Amulet, Helmet, Chest, Belt, Gloves, Boots, Axe, Claw, Bow, Dagger, Mace, Quiver, Sceptre, Staff, Sword, Shield, Wand
 
-Some examples: {WhiteRing}, {RareChest}, {UniqueBelt}
+Some examples: {WhiteRing}, {RareChest}, {UniqueBelt}, {WhiteFlask}
