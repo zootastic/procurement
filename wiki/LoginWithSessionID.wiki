@@ -4,7 +4,42 @@
 
 A new feature was introduced with version v1.0.0 of procurement which allows the user to log in without using the traditional email/password combination. When enabled, the user is required to populate an Alias(used for the cache folder) and php session id. To get this, you are required to be logged in to the pathofexile website in your choice of browser.
 
-The session id will expire only if you perform a log out operation in the browser.
+= Some thoughts on security =
+
+To start, we need to define what the session id is. Then we can get into what can be done with it, how to control it's lifetime, and how it differs logging into procurement using the traditional username/password combination.
+
+For the record, I should mention that I am not a PHP developer by any means. That said however, the concepts at work here are fairly language agnostic.
+
+==Session ID Definition==
+
+On the POEForums, when you login to the website a session id is created for you. PHP generates a random session id variable and stores it in a cookie, which is by default named PHPSESSID. The server can then track various information about the session without needing username and password to load every subsequent page. In addition, the server will typically also track some state to improve the usability of the website. Last character selected is a good example of this(also the only one I can think of right now!)
+
+==Given a SessionID, what can be done with it==
+
+As implied above, given this ID, pages from the www.pathofexile.com site can be requested on your behalf. That's it.
+
+This is in fact no different to how procurement works when entering username and password. The only difference in that case is procurement has to authenticate once to create a new session id.
+
+To summarize more visually. The sequence of events goes something like this:
+
+ # Authenticate using username and password (Username / Password mode starts here)
+ # Get the resulting Session ID. (New SessionID mode starts here)
+ # Download stash, characters images and cache to disk
+ # Return control the the user displaying the stash screen
+
+==Given a SessionID, what can't be done with it==
+
+Understandably, users may be weary of entering any information that allows procurement to download pages from www.pathofexile.com on their behalf. Thankfully, GGG is a security conscious company, and as such all the "Manage Account" features are gated by a requirement to enter your current password. This information is not available given only a SessionID and as such, operations like changing password or email can't be performed. At worst, a malicious user having a valid SessionID could probably buy you that EK Microtransaction you've always wanted.
+
+==Lifetime of a session==
+
+Once a session is created, it will persist on the GGG server until it either expires(I haven't seen this happen before), or the user logs out on the website. This is useful, because the validity of the session can be controlled by the user.
+
+For users weary of security, the safest way to use the app would be:
+ # Login to the website, grab the SessionID
+ # Login to procurement
+ # Once procurement has downloaded the information, logout on the website. This process ensures that the information that was given to procurement during login, was only valid for a short period of time.
+
 
 = How to retrieve the value =
 
