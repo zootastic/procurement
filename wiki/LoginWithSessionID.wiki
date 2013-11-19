@@ -71,7 +71,7 @@ Firstly, open up your browser of choice, make sure you are logged in and the pag
 
 = How to configure Procurement to use SessionID =
 
-First, update the UseSessionID setting :
+First, update the UseSessionID setting, in settings.xml :
 
 {{{
 <Setting name="UseSessionID" value="True" />
@@ -84,6 +84,4 @@ http://i.imgur.com/KeXE3gU.jpg
 The alias is the name Procurement uses to create a folder, which will store all your character and stash files. You can make the alias whatever you like, but be sure to use the same alias every time for the same account - this will allow offline mode.
 
 Lastly, enter the sessionID that you retrieved from your browser, and click login.
-
-
 
