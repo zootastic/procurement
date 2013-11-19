@@ -14,7 +14,7 @@ For the record, I should mention that I am not a PHP developer by any means. Tha
 
 On the POEForums, when you login to the website a session id is created for you. PHP generates a random session id variable and stores it in a cookie, which is by default named PHPSESSID. The server can then track various information about the session without needing username and password to load every subsequent page. In addition, the server will typically also track some state to improve the usability of the website. Last character selected is a good example of this(also the only one I can think of right now!)
 
-==Given a SessionID, what can be done with it==
+==Given a Session ID, what can be done with it==
 
 As implied above, given this ID, pages from the www.pathofexile.com site can be requested on your behalf. That's it.
 
@@ -27,7 +27,7 @@ To summarize more visually. The sequence of events goes something like this:
  # Download stash, characters images and cache to disk
  # Return control the the user displaying the stash screen
 
-==Given a SessionID, what can't be done with it==
+==Given a Session ID, what can't be done with it==
 
 Understandably, users may be weary of entering any information that allows procurement to download pages from www.pathofexile.com on their behalf. Thankfully, GGG is a security conscious company, and as such all the "Manage Account" features are gated by a requirement to enter your current password. This information is not available given only a SessionID and as such, operations like changing password or email can't be performed. At worst, a malicious user having a valid SessionID could probably buy you that EK Microtransaction you've always wanted.
 
@@ -50,7 +50,7 @@ Firstly, open up your browser of choice, make sure you are logged in and the pag
   * In the console window, click the Cache menu and select view cookie information
   * This will open a new page with the cookies listed.
   * Find the item with the name PHPSESSID.
-  * Copy the value next to VALUE - this is your sessionid.
+  * Copy the value next to VALUE - this is your session id.
  
 ==Firefox==
   * Hit the Alt key
@@ -59,17 +59,17 @@ Firstly, open up your browser of choice, make sure you are logged in and the pag
   * In the history section, there should be a remove individual cookies link. Click this.
   * in the Search textbox, type pathofexile.com
   * Locate the item with a cookie name of PHPSESSID and click on it.
-  * Copy the value next to Content - this is your sessionid.
+  * Copy the value next to Content - this is your session id.
 
 ==Chrome==
   * Hit 12 - This should open the Developer Tools
   * Click the resources item at the top
   * Expand cookies and select the www.pathofexile.com item in the list
   * Find the item in the grid on the right where the name is PHPSESSID
-  * Double click on the value, right click copy. Your sessionid is now in the clipboard.
+  * Double click on the value, right click copy. Your session id is now in the clipboard.
 
 
-= How to configure Procurement to use SessionID =
+= How to configure Procurement to use Session ID =
 
 First, update the UseSessionID setting, in settings.xml :
 
@@ -84,4 +84,3 @@ http://i.imgur.com/KeXE3gU.jpg
 The alias is the name Procurement uses to create a folder, which will store all your character and stash files. You can make the alias whatever you like, but be sure to use the same alias every time for the same account - this will allow offline mode.
 
 Lastly, enter the sessionID that you retrieved from your browser, and click login.
-
