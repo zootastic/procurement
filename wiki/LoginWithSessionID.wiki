@@ -67,3 +67,23 @@ Firstly, open up your browser of choice, make sure you are logged in and the pag
   * Expand cookies and select the www.pathofexile.com item in the list
   * Find the item in the grid on the right where the name is PHPSESSID
   * Double click on the value, right click copy. Your sessionid is now in the clipboard.
+
+
+= How to configure Procurement to use SessionID =
+
+First, update the UseSessionID setting :
+
+{{{
+<Setting name="UseSessionID" value="True" />
+}}}
+
+Next run Procurement, which will now prompt you for an Alias and SessionID. 
+
+http://i.imgur.com/KeXE3gU.jpg
+
+The alias is the name Procurement uses to create a folder, which will store all your character and stash files. You can make the alias whatever you like, but be sure to use the same alias every time for the same account - this will allow offline mode.
+
+Lastly, enter the sessionID that you retrieved from your browser, and click login.
+
+
+
