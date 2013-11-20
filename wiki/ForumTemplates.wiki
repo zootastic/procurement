@@ -52,4 +52,4 @@ Then, the combinations of the following are valid:
    	       
 and GearType can be: Ring, Amulet, Helmet, Chest, Belt, Gloves, Boots, Axe, Claw, Bow, Dagger, Mace, Quiver, Sceptre, Staff, Sword, Shield, Wand
 
-Some examples: {WhiteRing}, {RareChest}, {UniqueBelt}, {NormalFlask}
+Some examples: {NormalRing}, {RareChest}, {UniqueBelt}, {NormalFlask}
