@@ -36,7 +36,7 @@ This allows the user complete control over how the template will be generated, a
   * *{CurseGems}* - Curse gems such as Temporal Chains or Conductivity
   * *{TripRes}* - Any item with 3 or more explicit resist stats
   * *{Uniques}* - Any unique items
-  * *{WhiteGear}* - Any white gear
+  * *{NormalGear}* - Any normal or white gear
   * *{LvlMaps}* - The keyword currently accepts a value for Lvl between 66 - 100. Some examples would be: {66Maps}, {67Maps}, {68Maps}. 
   * *{Stash:Name}* - The keyword will export an entire stash by name. This feature was requested. Some Examples would be {Stash:Uniques}, {Stash:Highlights}
   * *{OneHanders}* - All one handed weapons
@@ -48,8 +48,8 @@ This allows the user complete control over how the template will be generated, a
 
 Then, the combinations of the following are valid:
 
-{QualityGearType} where Quality can be: White, Magic, Rare, Unique
+{QualityGearType} where Quality can be: Normal, Magic, Rare, Unique
    	       
 and GearType can be: Ring, Amulet, Helmet, Chest, Belt, Gloves, Boots, Axe, Claw, Bow, Dagger, Mace, Quiver, Sceptre, Staff, Sword, Shield, Wand
 
-Some examples: {WhiteRing}, {RareChest}, {UniqueBelt}, {WhiteFlask}
+Some examples: {WhiteRing}, {RareChest}, {UniqueBelt}, {NormalFlask}
