@@ -84,3 +84,7 @@ http://i.imgur.com/KeXE3gU.jpg
 The alias is the name Procurement uses to create a folder, which will store all your character and stash files. You can make the alias whatever you like, but be sure to use the same alias every time for the same account - this will allow offline mode.
 
 Lastly, enter the sessionID that you retrieved from your browser, and click login.
+
+= Procurement Session ID walk-through with Xaelyin=
+
+<wiki:video url="http://www.youtube.com/watch?v=o8aHmbvWxAo&feature=youtu.be"/>
