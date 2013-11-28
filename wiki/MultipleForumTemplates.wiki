@@ -20,4 +20,4 @@ In order to add an additional forum export template, for example for a leveling 
 
   * Save and close the settings file
   * Run Procurement, in the Trading screen the templates you added will now be in the dropdown
-  * Note that when you first add a template, it will use the default layout, you can then edit the template and save it.
+  * Note that when you first add a template, it will use the default layout, you can then edit the template and save it
