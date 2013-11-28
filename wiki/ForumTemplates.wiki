@@ -50,6 +50,6 @@ Then, the combinations of the following are valid:
 
 {QualityGearType} where Quality can be: Normal, Magic, Rare, Unique
    	       
-and GearType can be: Ring, Amulet, Helmet, Chest, Belt, Gloves, Boots, Axe, Claw, Bow, Dagger, Mace, Quiver, Sceptre, Staff, Sword, Shield, Wand
+and GearType can be: Ring, Amulet, Helmet, Chest, Belt, Gloves, Boots, Axe, Claw, Bow, Dagger, Mace, Quiver, Sceptre, Staff, Sword, Shield, Wand, Flask
 
 Some examples: {NormalRing}, {RareChest}, {UniqueBelt}, {NormalFlask}
