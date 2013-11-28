@@ -7,7 +7,7 @@ Procurement v0.0.8 has introduced the ability to set which leagues to update whe
 = Details =
 
    * Open settings.xml in the Procurement folder
-   * Edit the following line: 
+   * Edit the following line(Note if you're using an old setting file, you can add this manually under the UserSettings section): 
 
    {{{
         <Setting name="DownloadOnlyMyLeagues" value="false" />
