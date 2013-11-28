@@ -45,7 +45,7 @@ For users weary of security, the safest way to use the app would be:
 
 Firstly, open up your browser of choice, make sure you are logged in and the page is open, and then skip to the relevant section below
 
-==Internet Explorer==
+==Internet Explorer v10==
   * Hit F12 - This should open the developer console.
   * In the console window, click the Cache menu and select view cookie information
   * This will open a new page with the cookies listed.
