@@ -56,7 +56,7 @@ Firstly, open up your browser of choice, make sure you are logged in and the pag
   * Hit the Alt key
   * Select Tools -> Options from the menu
   * Click on the Privacy tab
-  * In the history section, there should be a remove individual cookies link. Click this.
+  * In the history section, there should be a remove individual cookies link. Click this
   * in the Search textbox, type pathofexile.com
   * Locate the item with a cookie name of PHPSESSID and click on it.
   * Copy the value next to Content - this is your session id.
