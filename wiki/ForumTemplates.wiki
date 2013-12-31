@@ -15,22 +15,8 @@ This allows the user complete control over how the template will be generated, a
   * *{IGN}* - IGN of your favorite character in settings
   * *{LastUpdated}* - Current date time. Format is "July 02, 2013 09:35 AM"
   * *{MagicFind}* - Any item with rarity, quantity or both stats will be included
-  * *{PopularGems}* - This will be extended in a future release to be configurable. Currently the list is:
-    * Blood Magic
-    * Item Quantity
-    * Life Gain on Hit
-    * Life Leech
-    * Multistrike
-    * Reduced Mana
-    * Spell Totem
-    * Fork
-    * Chain
-    * Faster Attacks
-    * Greater Multiple Projectiles
-    * Lesser Multiple Projectiles
-    * Mana Leech
-    * Added Chaos Damage
-    * Item Rarity
+  * *{PopularGems}* - This is based on the Popular Gems list in settings.xml
+  * *{SupportGems}* - All support gems, non quality
   * *{QualityGems}* - Any gems with quality
   * *{AuraGems}* - Aura gems such as Haste or Vitality
   * *{CurseGems}* - Curse gems such as Temporal Chains or Conductivity
