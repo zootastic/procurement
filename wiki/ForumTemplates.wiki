@@ -20,11 +20,12 @@ This allows the user complete control over how the template will be generated, a
   * *{QualityGems}* - Any gems with quality
   * *{AuraGems}* - Aura gems such as Haste or Vitality
   * *{CurseGems}* - Curse gems such as Temporal Chains or Conductivity
+  * *{DualRes}* - Any item with 2 explicit resist stats
   * *{TripRes}* - Any item with 3 or more explicit resist stats
   * *{Uniques}* - Any unique items
   * *{NormalGear}* - Any normal or white gear
   * *{LvlMaps}* - The keyword currently accepts a value for Lvl between 66 - 100. Some examples would be: {66Maps}, {67Maps}, {68Maps}. 
-  * *{Stash:Name}* - The keyword will export an entire stash by name. This feature was requested. Some Examples would be {Stash:Uniques}, {Stash:Highlights}
+  * *{Stash:Name}* - The keyword will export an entire stash by name. This feature was requested. Some Examples would be {Stash:Uniques}, {Stash:Highlights}. If you have non premium tabs, the format should be {Stash:1}, {Stash:2} etc
   * *{OneHanders}* - All one handed weapons
   * *{TwoHanders}* - All two handed weapons
   * *{Buyouts}* - All items with a buyout set, in spoilers as per the indexers format rules. Buyouts set by right clicking an item, set buyout
