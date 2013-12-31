@@ -1,0 +1,32 @@
+#summary How to configure and use the buyout system
+
+= Introduction =
+
+This page will cover how to use and configure the buyout system introduced in Procurement 1.1.0
+
+= Setting Buyouts =
+
+To set a buyout on an item, simply right click the item, you will be presented with a context menu:
+
+http://i.imgur.com/Ds7eKVe.png
+
+Simply enter in the amount, or use the +/- buttons to increase or decrease the amount, and select the orb type, by default chaos is used.
+
+To save the buyout, simply click "Save Buyout", the buyout will be saved without any need to restart Procurement
+
+
+= Configuring how buyouts are displayed =
+
+Procurement 1.1.0 has introduced two new settings:
+
+{{{
+    <Setting name="EmbedBuyouts" value="True" />
+    <Setting name="BuyoutItemsOnlyVisibleInBuyoutsTag" value="False" />
+}}}
+
+The EmbedBuyouts setting will add the buyout for an item inside existing tags/categorys. For example, if you have a great tri res rare chest piece, and you set a 1ex buyout, the buyout will display inside your {TriRes} section as well as {RareChest}. You will no longer need to use the {Buyout} tag (but you still can if you want to!) By default, this setting is enabled.
+
+The long named BuyoutItemsOnlyVisibleInBuyoutsTag setting will make buyouts only display in the {Buyouts} section, and not in the rest of your tags/sections. By default, this setting is disabled.
+
+
+
