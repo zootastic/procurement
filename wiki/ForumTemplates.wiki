@@ -16,10 +16,7 @@ This allows the user complete control over how the template will be generated, a
   * *{LastUpdated}* - Current date time. Format is "July 02, 2013 09:35 AM"
   * *{MagicFind}* - Any item with rarity, quantity or both stats will be included
   * *{PopularGems}* - This is based on the Popular Gems list in settings.xml
-  * *{SupportGems}* - All support gems, non quality
   * *{QualityGems}* - Any gems with quality
-  * *{AuraGems}* - Aura gems such as Haste or Vitality
-  * *{CurseGems}* - Curse gems such as Temporal Chains or Conductivity
   * *{DualRes}* - Any item with 2 explicit resist stats
   * *{TripRes}* - Any item with 3 or more explicit resist stats
   * *{Uniques}* - Any unique items
@@ -40,3 +37,13 @@ Then, the combinations of the following are valid:
 and GearType can be: Ring, Amulet, Helmet, Chest, Belt, Gloves, Boots, Axe, Claw, Bow, Dagger, Mace, Quiver, Sceptre, Staff, Sword, Shield, Wand, Flask
 
 Some examples: {NormalRing}, {RareChest}, {UniqueBelt}, {NormalFlask}
+
+In Addition, gems can now be filtered by the categories they are listed under. Available categories currently are:
+AoE, Attack, Aura, Bow, Cast, Chaining, Chaos, Cold, Curse, Duration, Fire, Lightning, Melee, Mine, Minion, Movement, Projectile, Spell, Totem, Trap and Support. Simple examples are:
+  * *{SupportGems}* - All support gems
+  * *{AuraGems}* - Aura gems such as Haste or Vitality
+  * *{CurseGems}* - Curse gems such as Temporal Chains or Conductivity
+
+Categories can also be combined, but only twice. Examples are:
+  * *{ColdSpellGems}* - All cold spell gems
+  * *{FireProjectileGems}* - All cold projectile gems
