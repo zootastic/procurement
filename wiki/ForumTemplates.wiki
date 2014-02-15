@@ -17,6 +17,7 @@ This allows the user complete control over how the template will be generated, a
   * *{MagicFind}* - Any item with rarity, quantity or both stats will be included
   * *{PopularGems}* - This is based on the Popular Gems list in settings.xml
   * *{QualityGems}* - Any gems with quality
+  * *{LeveledGems}* - Any gems that are level 2 or higher
   * *{DualRes}* - Any item with 2 explicit resist stats
   * *{TripRes}* - Any item with 3 or more explicit resist stats
   * *{Uniques}* - Any unique items
