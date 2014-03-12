@@ -1,0 +1,55 @@
+#summary Frequently Asked Questions and Common Issues
+
+<wiki:toc max_depth="3" />
+
+= Introduction =
+
+This wiki page covers frequently asked questions, as well as cover some of the more common issues/errors people receive with Procurement, and how to resolve them.
+
+
+= FAQ =
+
+===Do I have to enter my username and password?===
+
+No, when we released Procurement 1.0.0 we added the ability to login using [https://code.google.com/p/procurement/wiki/LoginWithSessionID sessionID].
+
+
+===How do I make Procurement only download only my league?===
+
+Follow the [https://code.google.com/p/procurement/wiki/HowToOnlyDownloadSelectedLeagues wiki guide] (Includes video)!
+
+===How do I customize the export template? What tags are there?===
+
+Follow the [https://code.google.com/p/procurement/wiki/ForumTemplates forum tempalte] wiki guide!
+
+===How do I customize the export template? What tags are there?===
+
+Follow the [https://code.google.com/p/procurement/wiki/MultipleForumTemplates multiple forum templates] wiki guide!
+
+===Procurement doesn't fit on my resolution! How do I make it fit?===
+
+Settings -> Enable Compact Mode -> Restart Procurement.
+
+If you're unable to see the save button, edit settings.xml and set CompactMode to True, save, close settings file and start Procurement.
+
+
+===I use steam and don't have an email/password, how do I use Procurement===
+
+Follow the [https://code.google.com/p/procurement/wiki/LoginWithSessionID sessionID] wiki guide 
+
+===A new version of Procurement is out, how do I copy over my buyouts?===
+
+Open the settings.xml file from the old version, and copy everything in the buyouts section:
+
+{{{
+  <Buyouts>
+         ...
+  </Buyouts>
+}}}
+
+Then open the new settings file, and replace the existing <Buyouts /> tag.
+
+
+===Why does Procurement download images every time?===
+
+It doesn't. Images are cached in the Common folder, during login when Procurement displays "Loading image for xyz", it first checks the common folder and loads from disk if it's already there. This should be pretty noticable if you have an SSD.
