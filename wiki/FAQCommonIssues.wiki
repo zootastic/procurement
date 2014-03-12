@@ -47,7 +47,7 @@ Open the settings.xml file from the old version, and copy everything in the buyo
   </Buyouts>
 }}}
 
-Then open the new settings file, and replace the existing <Buyouts /> tag.
+Then open the new settings file, and replace the existing buyouts tag.
 
 
 ===Why does Procurement download images every time?===
