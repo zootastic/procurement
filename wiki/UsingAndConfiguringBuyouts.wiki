@@ -1,5 +1,7 @@
 #summary How to configure and use the buyout system
 
+<wiki:toc max_depth="3" />
+
 = Introduction =
 
 This page will cover how to use and configure the buyout system introduced in Procurement 1.1.0
@@ -48,6 +50,4 @@ Things to keep in mind:
 
 
   * If you have multiple tabs with the same name, and set a buyout for that tab, it will set the buyout for all tabs with the same name. This includes cross league tabs.
-
-
 
