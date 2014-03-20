@@ -42,14 +42,12 @@ Save the settings file, close and start Procurement. When you generate your foru
 
 Things to keep in mind:
 
-* Once you have set the buyout, when you update again and new gear is in that tab, it will automatically be priced as per your tab buyout.
-
-* If you set a buyout on an individual item that is in a tab that has a buyout, the item buyout will take presidence over the tab buyout
-
-
-* If you have multiple tabs with the same name, and set a buyout for that tab, it will set the buyout for all tabs with the same name. This includes cross league tabs.
+  * Once you have set the buyout, when you update again and new gear is in that tab, it will automatically be priced as per your tab buyout.
+  
+  * If you set a buyout on an individual item that is in a tab that has a buyout, the item buyout will take presidence over the tab buyout
 
 
+  * If you have multiple tabs with the same name, and set a buyout for that tab, it will set the buyout for all tabs with the same name. This includes cross league tabs.
 
 
 
