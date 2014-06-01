@@ -32,7 +32,7 @@ The long named BuyoutItemsOnlyVisibleInBuyoutsTag setting will make buyouts only
 
 = Tab wide Buyouts =
 
-Procurement 1.3.0 has added the ability to set a buyout for all items in a tab, this is done via the settings file. For example, you have a tab named "Gear" and you want all items in this tab to be automatically priced for 1 chaos. Open the settings file and update the TabBuyouts section as follows:
+Procurement 1.3.0 has added the ability to set a buyout for all items in a tab, this is done via the buyouts.xml (previously settings file) file. For example, you have a tab named "Gear" and you want all items in this tab to be automatically priced for 1 chaos. Open the Buyouts.xml file and update the TabBuyouts section as follows:
 
 {{{
   <TabBuyouts>
@@ -50,4 +50,3 @@ Things to keep in mind:
 
 
   * If you have multiple tabs with the same name, and set a buyout for that tab, it will set the buyout for all tabs with the same name. This includes cross league tabs.
-
