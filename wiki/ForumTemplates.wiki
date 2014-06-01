@@ -30,6 +30,13 @@ This allows the user complete control over how the template will be generated, a
   * *{4Link}* - All items with exactly 4 links.
   * *{5Link}* - All items with exactly 5 links.
   * *{6Link}* - All items with exactly 6 links.
+  * *{6Socket} - All items with exactly 6 sockets
+  * *{Life} - All items with +to maximum Life
+  * *{LifeRegen} - All items with Life Regenerated per second
+  * *{CritChance} - All items with crit chance
+  * *{GlobalCritChance} - All items with global crit chance
+  * *{GlobalCritMultiplier} - All items with global crit multiplier
+  * *{SpellDamage} - All items with spell damage
 
 Then, the combinations of the following are valid:
 
@@ -48,3 +55,5 @@ AoE, Attack, Aura, Bow, Cast, Chaining, Chaos, Cold, Curse, Duration, Fire, Ligh
 Categories can also be combined, but only twice. Examples are:
   * *{ColdSpellGems}* - All cold spell gems
   * *{FireProjectileGems}* - All cold projectile gems
+
+Finally, if you merely want to dump ALL gems regardless of type or level into a spoiler, use {AllGems}
