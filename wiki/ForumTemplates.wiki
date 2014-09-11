@@ -16,7 +16,7 @@ This allows the user complete control over how the template will be generated, a
   * *{LastUpdated}* - Current date time. Format is "July 02, 2013 09:35 AM"
   * *{MagicFind}* - Any item with rarity, quantity or both stats will be included
   * *{PopularGems}* - This is based on the Popular Gems list in settings.xml
-  * *{QualityGems}* - Any gems with quality
+  * *{QualityXGems}* - Quality gems, where X = 1-20 
   * *{LeveledGems}* - Any gems that are level 2 or higher
   * *{DualRes}* - Any item with 2 explicit resist stats
   * *{TripRes}* - Any item with 3 or more explicit resist stats
@@ -30,13 +30,23 @@ This allows the user complete control over how the template will be generated, a
   * *{4Link}* - All items with exactly 4 links.
   * *{5Link}* - All items with exactly 5 links.
   * *{6Link}* - All items with exactly 6 links.
-  * *{6Socket} - All items with exactly 6 sockets
-  * *{Life} - All items with +to maximum Life
-  * *{LifeRegen} - All items with Life Regenerated per second
-  * *{CritChance} - All items with crit chance
-  * *{GlobalCritChance} - All items with global crit chance
-  * *{GlobalCritMultiplier} - All items with global crit multiplier
-  * *{SpellDamage} - All items with spell damage
+  * *{6Socket}* - All items with exactly 6 sockets
+  * *{Life}* - All items with +to maximum Life
+  * *{LifeRegen}* - All items with Life Regenerated per second
+  * *{CritChance}* - All items with crit chance
+  * *{GlobalCritChance}* - All items with global crit chance
+  * *{GlobalCritMultiplier}* - All items with global crit multiplier
+  * *{SpellDamage}* - All items with spell damage
+  * *{ManaRegen}* - Items with added mana regen
+  * *{QualityXGems}* - Quality gems, where X = 1-20 
+  * *{PhysicalDamage}* - Items with added physical damage
+  * *{IncreasedPhysicalDamage}* - Items with Increased Physical Damage
+  * *{EnergyShield}* - Items with increased Energy Shield
+  * *{VaalFragments},  {VaalUberFragments}* - Fragments
+  * *{CorruptedGems}* - Corrupted Gems
+
+
+
 
 Then, the combinations of the following are valid:
 
