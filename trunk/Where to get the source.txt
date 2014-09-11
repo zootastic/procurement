@@ -1,1 +1,1 @@
-Procrement's source has moved to github : https://github.com/Stickymaddness/Procurement
+Procurement's source has moved to github : https://github.com/Stickymaddness/Procurement
