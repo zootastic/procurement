@@ -46,11 +46,24 @@ For users weary of security, the safest way to use the app would be:
 Firstly, open up your browser of choice, make sure you are logged in and the page is open, and then skip to the relevant section below
 
 ==Internet Explorer v10==
+
   * Hit F12 - This should open the developer console.
   * In the console window, click the Cache menu and select view cookie information
   * This will open a new page with the cookies listed.
   * Find the item with the name PHPSESSID.
   * Copy the value next to VALUE - this is your session id.
+
+==Internet Explorer v11==
+
+  * Start IE11, open pathofexile.com and log in 
+  * Press F12 to open the Developer Tools
+  * Click on the Network button within the Developer Tools
+  * Enable capture of network traffic by clicking on the green triangular button in top toolbar
+  * Capture some network traffic by interacting with the pathofexile.com page
+  * Click on DETAILS (tab at top left), then click on Cookies in the same area
+  * Look for SessionID information, right-click COPY
+  * Paste copied information into Notepad or other word document software, copy the SessionID code
+  * Follow steps in the Procurement wiki for setting up UserSessionID
  
 ==Firefox==
   * Hit the Alt key
